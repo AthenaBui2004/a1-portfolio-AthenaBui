@@ -1,4 +1,4 @@
---Readme document for *YOUR NAME*, *YOUR_EMAIL@uci.edu*--
+--Readme document for Athena Bui, athenanb@uci.edu*--
 
 A reminder on academic integrity, as described in the syllabus.
 
@@ -7,6 +7,7 @@ In general, the course staff expects that you will look at code and examples fro
 While learning from examples is encouraged, attempting to pass an existing project or example from the web as your own is not allowed. If you ever have a question about what is or is not appropriate, feel free to ask the course staff!
 
 Talking to classmates about class material, assignment requirements, etc. is a great way to verify ideas and get feedback. But this distinctly does *not* permit attempting to pass off someone else’s code as your own. Talking over ideas and approaches is allowed, but the work that you produce and submit must be your own.
+
 
 1. How many assignment points do you believe you completed (replace the *'s with your numbers)?
 
@@ -51,4 +52,9 @@ Talking to classmates about class material, assignment requirements, etc. is a g
 
 
 7. Is there anything special we need to know in order to run your code?
+
+//To do
+1. Accessibility checks and change screenshots to jpg
+2. Complete Readme: Include JS navigation, AI usage, cite resources used
+4. Final edits and submit assignment by Monday night
 

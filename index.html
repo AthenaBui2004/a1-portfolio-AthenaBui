@@ -2,23 +2,344 @@
 <html lang="en">
 
 <!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
+WRITTEN BY: Athena Bui
+EMAIL: athenanb@uci.edu
 -->
 
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
-   <!-- you would also link to Bootstrap here! -->
-  <title>title here</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Athena Bui">
+  <meta
+    name="description"
+    content="Athena Bui's portfolio featuring customer experience, digital engagement, and marketing projects."
+  >
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+
+  <title>Athena Bui | Home</title>
 </head>
+
 <body>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container header-content">
+      <a class="brand" href="#home">
+        Athena Bui<span> / Portfolio</span>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <ul>
+          <li>
+            <a href="#home" aria-current="page">About Me</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div>
+        <p class="eyebrow">
+          Informatics · Digital Engagement · Customer Experience
+        </p>
+
+        <h1 id="hero-title">
+          Using Customer Insights to Improve Digital Experiences.
+        </h1>
+
+        <p class="intro">
+          Hi, I'm Athena, an Informatics student at UC Irvine graduating
+          in December 2026. I'm interested in product management,
+          customer success, and digital engagement, where I can apply
+          my skills in consumer insights, branding, and data-driven
+          storytelling to create impactful customer experiences.
+          With a background in marketing, campaign development, UI/UX,
+          and market research, I enjoy using data and customer insights
+          to develop user-centric solutions and drive strategic growth.
+        </p>
+
+        <div class="home-buttons">
+          <a class="button" href="#projects">My Projects</a>
+          <a class="button" href="#skills">My Skills</a>
+          <a class="button button-secondary" href="#contact">
+            Contact Me
+          </a>
+        </div>
+      </div>
+
+      <aside class="focus-card" aria-labelledby="focus-title">
+        <p class="eyebrow">My Experience</p>
+
+        <h2 id="focus-title">Turning insights into action.</h2>
+
+        <p>
+          I've analyzed customer journeys to identify gaps and recommend
+          improvements to digital support experiences. I've also
+          independently planned and led digital engagement campaigns,
+          using performance data and customer feedback to guide decisions.
+        </p>
+
+        <p class="location">Based in Irvine, California</p>
+      </aside>
+    </section>
+
+    <!-- PROJECTS -->
+    <section
+      id="projects"
+      class="section"
+      aria-labelledby="projects-title"
+    >
+      <p class="eyebrow">01 / My Projects</p>
+
+      <h2 id="projects-title">Work Experience and Projects</h2>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <p class="tag">Customer Care · June – August 2026</p>
+
+          <h3>Hyundai Motor America</h3>
+
+          <p>
+            As a Customer Care Intern, I evaluated how Hyundai and Genesis
+            supported customers across social media and digital
+            self-service channels. I analyzed customer interactions,
+            engagement, and Voice of the Customer (VOC) data to identify
+            workflow gaps and opportunities to improve the support
+            experience.
+          </p>
+
+          <h4>Customer Support Research &amp; Recommendations</h4>
+
+          <p>
+            I reviewed self-service resources and website navigation to
+            identify gaps in how customers found information and accessed
+            support. My recommendations focused on making resources easier
+            to find, clarifying next steps, and guiding customers to the
+            appropriate support channels to reduce the need for social
+            media and executive escalations.
+          </p>
+
+          <h4>Social Media Engagement Framework</h4>
+
+          <p>
+            I developed a tiered framework for classifying, prioritizing,
+            and responding to positive, neutral, and negative customer
+            sentiment. The framework connected customer feedback with a
+            more structured approach to engagement and support.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <p class="tag">
+            Digital Engagement · June – December 2025
+          </p>
+
+          <h3>Calix</h3>
+
+          <p>
+            I joined Calix as a Digital Engagement and Community Intern
+            and later continued as a Digital Engagement and Community
+            Coordinator, supporting community participation and access
+            to Customer Success resources.
+          </p>
+
+          <h4>
+            Digital Engagement Incentive Campaign in the Calix Community
+          </h4>
+
+          <p>
+            I designed, launched, and managed an incentive campaign built
+            around interactive community challenges. The campaign achieved
+            a <strong>10% email open rate</strong> and a
+            <strong>4% click-through rate</strong>. I later developed a
+            second challenge for a new focus group to continue encouraging
+            participation.
+          </p>
+
+          <h4>Analytics and Customer Feedback</h4>
+
+          <p>
+            I analyzed Power BI community dashboards and Google Analytics
+            email performance metrics to inform strategy improvements.
+            Working directly with community members helped me identify
+            resource gaps, while cross-functional collaboration helped
+            align content with customer personas.
+          </p>
+
+          <h4>Success Resource Catalogue</h4>
+
+          <p>
+            I built a catalogue using AI and a Python script to
+            automatically update an existing spreadsheet with new or
+            revised Customer Success resources. I also created, audited,
+            and organized content while maintaining quality and
+            accessibility under tighter deadlines.
+          </p>
+        </article>
+
+        <article class="project-card">
+          <p class="tag">
+            Influencer &amp; Brand Marketing · December 2024 – March 2025
+          </p>
+
+          <h3>Wooshin Labottach</h3>
+
+          <p>
+            As an Administrative and Marketing Intern, I supported social
+            media campaigns, product launches, and market research for an
+            emerging Korean skincare brand entering the U.S. market.
+          </p>
+
+          <h4>Campaigns and Product Launches</h4>
+
+          <p>
+            I developed multi-platform social media campaigns and
+            collaborated with influencers to promote new products.
+            I coordinated across departments to align marketing initiatives
+            with sales objectives and maintain consistent brand messaging.
+          </p>
+
+          <h4>Market Research</h4>
+
+          <p>
+            I conducted research to inform the brand's U.S. market entry
+            strategy and presented insights and recommendations directly
+            to leadership. I also tracked social media and sales
+            performance and supported inventory management and order
+            fulfillment to maintain operational efficiency.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section
+      id="skills"
+      class="section"
+      aria-labelledby="skills-title"
+    >
+      <p class="eyebrow">02 / Skills</p>
+
+      <h2 id="skills-title">Skills</h2>
+
+      <table>
+        <caption>
+          These are the tools I've used and how I've applied them in my work.
+        </caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Area</th>
+            <th scope="col">Tools and Methods</th>
+            <th scope="col">Application</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">Design &amp; Marketing</th>
+            <td>Figma, Canva, Adobe InDesign</td>
+            <td>
+              Visual Communication, Creation of Promotional Materials,
+              Image Editing
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">Data &amp; Research</th>
+            <td>Power BI, Google Analytics, Excel</td>
+            <td>
+              Customer Insights, Engagement Analysis,
+              Research Documentation
+            </td>
+          </tr>
+
+          <tr>
+            <th scope="row">Programming</th>
+            <td>Python, Java</td>
+            <td>Resource Catalogue Automation</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- CONTACT -->
+    <section
+      id="contact"
+      class="section"
+      aria-labelledby="contact-title"
+    >
+      <p class="eyebrow">03 / Contact</p>
+
+      <h2 id="contact-title">Contact Me</h2>
+
+      <address class="contact-card">
+        <div class="contact-item">
+          <div>
+            <strong>Call Me</strong>
+            <a href="tel:+17149518688">(714) 951-8688</a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div>
+            <strong>Say Hello</strong>
+            <a href="mailto:theenabui@gmail.com">
+              theenabui@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div>
+            <strong>Let’s Connect!</strong>
+            <a href="https://www.linkedin.com/in/athena-bui-8b0bb1239/">
+              Athena Bui on LinkedIn
+            </a>
+          </div>
+        </div>
+      </address>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Athena Bui's Portfolio</p>
+
+      <p>
+        <a href="#contact">Contact Me</a>
+        ·
+        <a href="https://www.linkedin.com/in/athena-bui-8b0bb1239/">
+          LinkedIn
+        </a>
+      </p>
+
+      <p>
+        <a href="https://validator.w3.org/">
+          W3C HTML validator</a>
+        ·
+        <a href="https://jigsaw.w3.org/css-validator/">
+          W3C CSS validator
+        </a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
