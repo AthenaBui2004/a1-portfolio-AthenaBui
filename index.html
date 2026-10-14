@@ -24,6 +24,7 @@ EMAIL: athenanb@uci.edu
 <body>
   <a class="skip-link" href="#main">Skip to main content</a>
 
+  <!-- Header and navigation. -->
   <header class="site-header">
     <div class="container header-content">
       <a class="brand" href="#home">
@@ -49,8 +50,9 @@ EMAIL: athenanb@uci.edu
     </div>
   </header>
 
-  <main id="main" class="container">
+  <main id="main" class="container" tabindex="-1">
 
+    <!-- About Me. -->
     <section id="home" class="hero" aria-labelledby="hero-title">
       <div>
         <p class="eyebrow">
@@ -97,7 +99,7 @@ EMAIL: athenanb@uci.edu
       </aside>
     </section>
 
-    <!-- PROJECTS -->
+    <!-- Projects. -->
     <section
       id="projects"
       class="section"
@@ -228,7 +230,7 @@ EMAIL: athenanb@uci.edu
       </div>
     </section>
 
-    <!-- SKILLS -->
+    <!-- Skills. -->
     <section
       id="skills"
       class="section"
@@ -238,48 +240,81 @@ EMAIL: athenanb@uci.edu
 
       <h2 id="skills-title">Skills</h2>
 
+      <!-- Explicit header associations address AChecker Check 245. -->
       <table>
         <caption>
-          These are the tools I've used and how I've applied them in my work.
+          Skills, tools, and how I apply them in my work.
         </caption>
 
         <thead>
           <tr>
-            <th scope="col">Area</th>
-            <th scope="col">Tools and Methods</th>
-            <th scope="col">Application</th>
+            <th id="skills-area" scope="col">Area</th>
+            <th id="skills-tools" scope="col">Tools and Methods</th>
+            <th id="skills-application" scope="col">Application</th>
           </tr>
         </thead>
 
         <tbody>
           <tr>
-            <th scope="row">Design &amp; Marketing</th>
-            <td>Figma, Canva, Adobe InDesign</td>
-            <td>
+            <th
+              id="skills-design"
+              scope="row"
+              headers="skills-area"
+            >
+              Design &amp; Marketing
+            </th>
+
+            <td headers="skills-design skills-tools">
+              Figma, Canva, Adobe InDesign
+            </td>
+
+            <td headers="skills-design skills-application">
               Visual Communication, Creation of Promotional Materials,
               Image Editing
             </td>
           </tr>
 
           <tr>
-            <th scope="row">Data &amp; Research</th>
-            <td>Power BI, Google Analytics, Excel</td>
-            <td>
+            <th
+              id="skills-research"
+              scope="row"
+              headers="skills-area"
+            >
+              Data &amp; Research
+            </th>
+
+            <td headers="skills-research skills-tools">
+              Power BI, Google Analytics, Excel
+            </td>
+
+            <td headers="skills-research skills-application">
               Customer Insights, Engagement Analysis,
               Research Documentation
             </td>
           </tr>
 
           <tr>
-            <th scope="row">Programming</th>
-            <td>Python, Java</td>
-            <td>Resource Catalogue Automation</td>
+            <th
+              id="skills-programming"
+              scope="row"
+              headers="skills-area"
+            >
+              Programming
+            </th>
+
+            <td headers="skills-programming skills-tools">
+              Python, Java
+            </td>
+
+            <td headers="skills-programming skills-application">
+              Resource Catalogue Automation
+            </td>
           </tr>
         </tbody>
       </table>
     </section>
 
-    <!-- CONTACT -->
+    <!-- Contact. -->
     <section
       id="contact"
       class="section"
@@ -319,6 +354,7 @@ EMAIL: athenanb@uci.edu
 
   </main>
 
+  <!-- Footer. -->
   <footer class="site-footer">
     <div class="container">
       <p>Athena Bui's Portfolio</p>
@@ -332,8 +368,7 @@ EMAIL: athenanb@uci.edu
       </p>
 
       <p>
-        <a href="https://validator.w3.org/">
-          W3C HTML validator</a>
+        <a href="https://validator.w3.org/">W3C HTML validator</a>
         ·
         <a href="https://jigsaw.w3.org/css-validator/">
           W3C CSS validator
